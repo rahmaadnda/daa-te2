@@ -12,7 +12,7 @@ def generate_dataset(size):
     while len(dataset) < count:
         dataset.add(random.randint(1, 100))
     dataset = list(dataset)
-    save_dataset(f"dataa/{size}.txt", dataset)
+    save_dataset(f"dataset/{size}.txt", dataset)
     return dataset
 
 def save_dataset(filename, dataset):
